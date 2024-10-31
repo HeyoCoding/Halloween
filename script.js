@@ -3,7 +3,7 @@ const scoreDisplay = document.getElementById("score");
 const timerDisplay = document.getElementById("timer");
 
 let score = 0;
-let gameTime = 60; 
+let gameTime = 30; 
 let speed = 1000; 
 let pumpkins = [];
 let gameInterval;
