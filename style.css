@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url('back.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: #FFA500;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-shadow: 5px 5px 2px black, 5px 5px 2px black;
+}
+
+#timer {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem; 
+    font-weight: bold; 
+    color: #FFA500; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+#game-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.pumpkin {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    transition: left 2s linear, top 2s linear; 
+}
+
+#score {
+    padding-top: 1x;
+    font-size: 5rem; 
+    font-weight: bold; 
+}
+p {
+    padding-top: 1px;
+    font-size: 2rem; 
+    font-weight: bold; 
+}
